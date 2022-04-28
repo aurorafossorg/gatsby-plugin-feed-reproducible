@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-feed",
+  "name": "gatsby-plugin-feed-reproducible",
   "description": "Creates an RSS feed for your Gatsby site.",
   "version": "4.14.0-next.1",
   "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
@@ -13,7 +13,7 @@
     "fs-extra": "^10.0.0",
     "gatsby-plugin-utils": "^3.8.0-next.1",
     "lodash.merge": "^4.6.2",
-    "rss": "^1.2.2"
+    "rss-reproducible": "^1.2.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.4",

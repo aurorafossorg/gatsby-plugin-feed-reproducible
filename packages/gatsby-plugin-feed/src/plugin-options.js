@@ -29,6 +29,7 @@ export default ({ Joi }) =>
   Joi.object({
     generator: Joi.string(),
     query: Joi.string(),
+    omitBuildDate: Joi.boolean(),
     setup: Joi.func(),
     feeds: Joi.array().items(feed({ Joi })).required(),
   })
