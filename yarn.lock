@@ -151,6 +151,14 @@
   resolved "https://registry.yarnpkg.com/@ascorbic/worker-threads-shim/-/worker-threads-shim-1.0.0.tgz#d003ac1f9aacc9d95d8a0e453bce256d7fa99923"
   integrity sha512-CEvYpC2w2t7tDWgloPA8ETra79cZzi2IdeM0bluTTkvWcnEdLWYStM12ymq2VRE3OMR8OtmKD4l026dUel1d+w==
 
+"@aurorafossorg/rss-reproducible@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@aurorafossorg/rss-reproducible/-/rss-reproducible-1.2.2.tgz#1e76d2d4867fb93913192b8cb92e8736008ece5b"
+  integrity sha512-jR2gWyE9u4dTDCJRI0ao9fsclOMicPhIM6IJPtSqycmaObrEvFZicm38RGmo8Fp05RF4/j7xiJlOc03o26mFAA==
+  dependencies:
+    mime-types "2.1.13"
+    xml "1.0.1"
+
 "@babel/cli@^7.15.4", "@babel/cli@^7.15.5":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.16.7.tgz#4184b5ec6a22106e9dd64bbcaa2eb22675ff595d"
@@ -21660,13 +21668,6 @@ rollup@^2.35.1, rollup@^2.66.1:
   integrity sha512-crSgLhSkLMnKr4s9iZ/1qJCplgAgrRY+igWv8KhG/AjKOJ0YX/WpmANyn8oxrw+zenF3BXWDLa7Xl/QZISH+7w==
   optionalDependencies:
     fsevents "~2.3.2"
-
-rss@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/rss/-/rss-1.2.2.tgz#50a1698876138133a74f9a05d2bdc8db8d27a921"
-  dependencies:
-    mime-types "2.1.13"
-    xml "1.0.1"
 
 run-async@^2.2.0, run-async@^2.4.0:
   version "2.4.1"

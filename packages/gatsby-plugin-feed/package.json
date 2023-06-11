@@ -1,19 +1,19 @@
 {
-  "name": "gatsby-plugin-feed-reproducible",
+  "name": "@aurorafossorg/gatsby-plugin-feed-reproducible",
   "description": "Creates an RSS feed for your Gatsby site.",
-  "version": "4.14.0-next.1",
+  "version": "4.14.0-next.2",
   "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@aurorafossorg/rss-reproducible": "^1.2.2",
     "@babel/runtime": "^7.15.4",
     "@hapi/joi": "^15.1.1",
     "common-tags": "^1.8.2",
     "fs-extra": "^10.0.0",
     "gatsby-plugin-utils": "^3.8.0-next.1",
-    "lodash.merge": "^4.6.2",
-    "rss-reproducible": "^1.2.2"
+    "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.4",

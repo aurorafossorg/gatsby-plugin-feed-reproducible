@@ -1,6 +1,6 @@
 import fs from "fs-extra"
 import path from "path"
-import RSS from "rss"
+import RSS from "@aurorafossorg/rss-reproducible"
 import merge from "lodash.merge"
 
 import { defaultOptions, runQuery } from "./internals"
